@@ -1,0 +1,172 @@
+🧑‍💼 SCENARIO 1: Employee Salary Filter
+Input
+Name	Dept	Salary
+Ram	IT	40,000
+Sam	HR	60,000
+John	IT	80,000
+Tina	HR	55,000
+Task
+
+Get names of employees earning > 50,000
+
+Output
+[Sam, John, Tina]
+
+🏢 SCENARIO 2: Group Employees by Department
+Input
+
+Same as above
+
+Output
+IT → [Ram, John]
+HR → [Sam, Tina]
+
+🥇 SCENARIO 3: Highest Salary in Each Department
+Input
+
+Same as above
+
+Output
+IT → John
+HR → Sam
+
+🔢 SCENARIO 4: Count Employees Per Department
+Input
+
+Same as above
+
+Output
+IT → 2
+HR → 2
+
+🛒 SCENARIO 5: Total Revenue from Completed Orders
+Input
+OrderId	Status	Amount
+101	COMPLETED	1,000
+102	CANCELLED	500
+103	COMPLETED	2,000
+Output
+3,000
+
+🛍️ SCENARIO 6: Orders Grouped by Date
+Input
+OrderId	Date
+1	2025-01-01
+2	2025-01-01
+3	2025-01-02
+Output
+2025-01-01 → [1, 2]
+2025-01-02 → [3]
+
+🧾 SCENARIO 7: Duplicate Elements Detection
+Input
+[10, 20, 10, 30, 40, 20]
+
+Output
+[10, 20]
+
+🔠 SCENARIO 8: First Non-Repeated Character
+Input
+"swiss"
+
+Output
+'w'
+
+📚 SCENARIO 9: Word Frequency Counter
+Input
+["java", "spring", "java", "react", "spring", "java"]
+
+Output
+java → 3
+spring → 2
+react → 1
+
+🔀 SCENARIO 10: Partition Even and Odd Numbers
+Input
+[1, 2, 3, 4, 5, 6]
+
+Output
+true  → [2, 4, 6]
+false → [1, 3, 5]
+
+🏆 SCENARIO 11: Second Highest Number
+Input
+[10, 40, 20, 30, 50]
+
+Output
+40
+
+🧺 SCENARIO 12: Flatten Nested Lists
+Input
+[[1, 2], [3, 4], [5]]
+
+Output
+[1, 2, 3, 4, 5]
+
+🧪 SCENARIO 13: Average Salary by Department
+Input
+Dept	Salary
+IT	40,000
+IT	60,000
+HR	50,000
+Output
+IT → 50,000
+HR → 50,000
+
+🔍 SCENARIO 14: AnyMatch / AllMatch / NoneMatch
+Input
+[12, 18, 20, 25]
+
+Output
+Any > 20  → true
+All even  → false
+None < 10 → true
+
+🗂️ SCENARIO 15: Remove Null and Empty Strings
+Input
+["java", null, "", "spring", " "]
+
+Output
+["java", "spring"]
+
+💡 SCENARIO 16: Join Strings
+Input
+["Java", "Spring", "React"]
+
+Output
+"Java, Spring, React"
+
+🔥 SCENARIO 17: Highest Paid Employee Overall
+Input
+Name	Salary
+A	30,000
+B	90,000
+C	50,000
+Output
+B
+
+🧠 SCENARIO 18: Count Characters in String
+Input
+"banana"
+
+Output
+b → 1
+a → 3
+n → 2
+
+🧩 SCENARIO 19: Common Elements Between Two Lists
+Input
+List1 → [1, 2, 3, 4]
+List2 → [3, 4, 5]
+
+Output
+[3, 4]
+
+🏁 SCENARIO 20: Sort Employees by Salary Descending
+Input
+Name	Salary
+X	40,000
+Y	70,000
+Z	50,000
+Output
+[Y, Z, X]
